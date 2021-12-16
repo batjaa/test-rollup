@@ -9,8 +9,6 @@ export default {
     },
   ],
   plugins: [
-    resolve({
-      browser: true
-    }),
+    resolve(),
   ],
 }
